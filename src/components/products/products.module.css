@@ -1,0 +1,33 @@
+.products {
+	margin: 20px;
+}
+
+.product {
+	text-align: center;
+	width: 500px;
+	height: 350px;
+	border: 1px solid black;
+	margin: 20px auto;
+	transition: 0.1s all;
+}
+
+.product:hover {
+	transform: scale(1.05);
+}
+
+.product ul {
+	list-style: none;
+	padding: 0;
+}
+
+.profile-image {
+	width: 450px;
+	height: 100px;
+	margin-left: 20px;
+}
+
+.thumb {
+	width: 35%;
+	height: auto;
+	margin:  auto;
+}
